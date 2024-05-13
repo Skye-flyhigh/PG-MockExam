@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta author="Skye">
+    <title>Mock exam</title> 
+    <meta name="description" content="">    
+<link href="output.css" rel="stylesheet" />
+</head>
+<body>
+    <nav id="nav" class="flex flex-row justify-around items-baseline bg-slate-100 dark:bg-black w-full">
+        <h1 class="text-2xl font-bold py-4 pl-6 mx-auto dark:text-white">Mock exam</h1>  
+<form class="max-w-sm mx-auto">
+    <select id="level-selector" class="bg-white border border-zinc-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
+        <option value="EP" disabled>Elementary pilot</option>
+      <option value="CP" selected>Club pilot</option>
+      <option value="P">Pilot</option>
+      <option value="AP" disabled>Advanced Pilot</option>
+    </select>
+  </form>
+  <form class="max-w-sm mx-auto">
+    <select id="question-selector" class="bg-white border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
+      <option value="2" selected>2 questions</option>
+      <option value="20" disabled>20 questions</option>
+      <option value="30" disabled>30 questions</option>
+    </select>
+  </form>
+  <div id="score" class="font-semibold border rounded-lg text-sm py-2 px-6 mx-auto dark:text-white dark:border-gray-600 dark:bg-gray-700 hidden"><p>Your score</p></div>
+        <button type="button" class="submit-btn bg-white border uppercase text-sm font-semibold py-2 px-6 mx-auto hover:opacity-70 rounded-lg dark:text-white dark:bg-gray-700 dark:border-gray-600">Submit</button>
+    </nav>
+    <main>
+      <form id="question-container" class="flex flex-col items-center justify-center py-4 dark:bg-slate-700">
+                <!-- Here goes the questions -->
+      </form>
+    </main>
+    <footer class="bg-slate-100 dark:bg-slate-900"><p class="text-2xl font-bold py-4 pl-6 mx-auto dark:text-white">Thanks!</p></footer>
+    <script src="app.js"></script>
+</body>
+</html>
