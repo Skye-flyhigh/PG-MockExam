@@ -115,6 +115,7 @@ function displayQuestion(num, level) {
          } while (arr.length < lngth)
          return arr;
       }
+
     const arr = getRanArr(4); // this number will depend on the number of questions in a given level
 
     //Filter the questions to get the targeted level
@@ -130,12 +131,12 @@ const filteredQuestion = examContent.filter((question) => {return question.level
         element.classList.add("bg-slate-300", "rounded-md", "border", "px-5", "py-5", "flex", "flex-col", "gap-4", "justify-center", "max-w-2xl", "m-2", "dark:bg-slate-800", "dark:text-white", "dark:border-gray-600");
         
         element.innerHTML = `<!-- question start -->
-        <h3 id="question" class="font-semibold text-lg">${i + 1}. ${item.question}</h3>
-        <div id="answer-container" class="bg-white rounded-md p-4 gap-3 flex flex-col dark:bg-slate-900 dark:text-white">
-            <div id="answer"><input type="radio" id="a1" name="${item.id}" value="a1" class="radio-answer mr-1"><label for="a1" class="a1">${item.a1}</label></div>
-            <div id="answer"><input type="radio" id="a2" name="${item.id}" value="a2" class="radio-answer mr-1"><label for="a2" class="a2">${item.a2}</label></div>
-            <div id="answer"><input type="radio" id="a3" name="${item.id}" value="a3" class="radio-answer mr-1"><label for="a3" class="a3">${item.a3}</label></div>
-            <div id="answer"><input type="radio" id="a4" name="${item.id}" value="a4" class="radio-answer mr-1"><label for="a4" class="a4">${item.a4}</label></div>
+        <h3 id="question" class="font-semibold sm:text-lg text-base">${i + 1}. ${item.question}</h3>
+        <div id="answer-container" class="bg-white rounded-md p-4 gap-3 flex flex-col sm:text-base text-sm dark:bg-slate-900 dark:text-white">
+            <div id="answer"><input type="radio" id="a1-${i + 1}" name="${item.id}" value="a1" class="radio-answer mr-1"><label for="a1-${i + 1}" class="a1">${item.a1}</label></div>
+            <div id="answer"><input type="radio" id="a2-${i + 1}" name="${item.id}" value="a2" class="radio-answer mr-1"><label for="a2-${i + 1}" class="a2">${item.a2}</label></div>
+            <div id="answer"><input type="radio" id="a3-${i + 1}" name="${item.id}" value="a3" class="radio-answer mr-1"><label for="a3-${i + 1}" class="a3">${item.a3}</label></div>
+            <div id="answer"><input type="radio" id="a4-${i + 1}" name="${item.id}" value="a4" class="radio-answer mr-1"><label for="a4-${i + 1}" class="a4">${item.a4}</label></div>
         </div>
         <!-- question end -->
         `;
