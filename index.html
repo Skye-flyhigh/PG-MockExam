@@ -9,11 +9,11 @@
 <link href="output.css" rel="stylesheet" />
 </head>
 <body>
-    <nav id="nav" class="flex flex-row justify-around items-baseline bg-slate-100 dark:bg-black w-full">
-        <h1 class="sm:text-2xl font-bold py-4 sm:pl-6 pl-2 m-auto dark:text-white">Mock exam</h1>  
-        <div id="selectors" class="sm:flex sm:w-max m-auto">
-          <form class="max-w-sm m-auto">
-            <select id="level-selector" class="bg-white border border-zinc-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
+    <nav id="nav" class="flex flex-row sm:justify-around items-baseline bg-slate-100 dark:bg-black w-full">
+        <h1 class="sm:text-2xl font-bold py-4 m-auto dark:text-white block">Mock exam</h1>  
+        <div id="selectors" aria-controls="selectors" class="sm:visible collapse sm:flex sm:justify-around sm:w-1/2 m-auto">
+          <form class="md:max-w-sm m-auto ">
+            <select id="level-selector" class="bg-white border border-zinc-300 text-gray-900 sm:text-sm text-xs rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
               <option value="EP" disabled>Elementary pilot</option>
               <option value="CP" selected>Club pilot</option>
               <option value="P">Pilot</option>
@@ -21,15 +21,21 @@
             </select>
           </form>
           <form class="max-w-sm mx-auto">
-            <select id="question-selector" class="bg-white border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
-              <option value="10" selected>10 questions</option>
+            <select id="question-selector" class="bg-white border border-gray-300 text-gray-900 sm:text-sm text-xs rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
+              <option value="5" selected>5 questions</option>
+              <option value="10" disabled>10 questions</option>
               <option value="20" disabled>20 questions</option>
-              <option value="30" disabled>30 questions</option>
             </select>
           </form>
         </div>
-        <div id="score" class="sm:font-semibold border rounded-lg text-sm py-2 sm:px-6 px-4 m-auto dark:text-white dark:border-gray-600 dark:bg-gray-700 hidden"><p>Your score</p></div>
-        <button type="button" class="submit-btn bg-white border uppercase text-sm font-semibold py-2 sm:px-6 px-4 sm:m-auto m-3 my-auto hover:opacity-70 rounded-lg dark:text-white dark:bg-gray-700 dark:border-gray-600">Submit</button>
+        <div id="score" class="sm:font-semibold border rounded-lg sm:text-sm text-xs py-2 sm:px-6 px-2 m-auto block dark:text-white dark:border-gray-600 dark:bg-gray-700 "><p>Your score</p></div>
+        <button type="button" class="submit-btn bg-white border uppercase sm:text-sm text-xs  font-semibold py-2 sm:px-6 px-4 sm:m-auto m-3 my-auto hover:opacity-70 rounded-lg dark:text-white dark:bg-gray-700 dark:border-gray-600">Submit</button>
+        <button id="burger-toggle" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center self-end text-sm text-gray-500 rounded-lg sm:hidden hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600 m-auto" aria-controls="selectors" aria-expanded="false">
+          <span class="sr-only">Open main menu</span>
+            <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+            </svg>
+        </button>
     </nav>
     <main>
       <form id="question-container" class="flex flex-col items-center justify-center py-4 dark:bg-slate-700">
@@ -38,5 +44,4 @@
     </main>
     <footer class="bg-slate-100 dark:bg-slate-900"><p class="text-2xl font-bold py-4 pl-6 mx-auto dark:text-white">Thanks!</p></footer>
     <script src="app.js"></script>
-</body>
-</html>
+    </html>
