@@ -212,8 +212,8 @@ submitBtn.addEventListener("click", () => {
 
     // ******************* Scoring **************************
     score.classList.remove("hidden", "bg-green-200", "dark:bg-green-600", "bg-red-200", "dark:bg-red-600");
-    score.innerText = amountCorrect+"/"+numOfQuestions+" ("+ amountCorrect/numOfQuestions*100 + "%"+ ")";
-
+    score.innerText = amountCorrect/numOfQuestions*100 + "%";
+// amountCorrect+"/"+numOfQuestions+" ("+ amountCorrect/numOfQuestions*100 + "%"+ ")"
     (amountCorrect/numOfQuestions*100) > "69"? 
     score.classList.add("bg-green-200", "dark:bg-green-600") : 
     score.classList.add("bg-red-200", "dark:bg-red-600");
