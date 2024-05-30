@@ -4,18 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta author="Skye">
-    <title>Mock exam</title> 
-    <meta name="description" content="">
-    <meta http-equiv="Permissions-Policy" content="interest-cohort=()">    
-<link href="output.css" rel="stylesheet" />
+    <title>Paragliding and Hangliding theory - Mock exam</title> 
+    <meta name="description" content="Practice your knowledge to prepare the BHPA pilot exams via this mock exam to go through the Pilot Rating Scheme. From Elementary Pilot to Advance Pilot (coming up soon).">
+    <meta http-equiv="Permissions-Policy" content="interest-cohort=()">
+    <meta name="robots" content="noindex">    
+    <link href="output.css" rel="stylesheet" />
 </head>
 <body>
     <nav id="nav" class="flex flex-row sm:justify-around items-baseline bg-slate-100 dark:bg-black w-full">
         <h1 class="sm:text-2xl font-bold py-4 m-auto dark:text-white block">Mock exam</h1>  
+        <!-- Select the level of questions and the number of questions -->
         <div id="selectors" aria-controls="selectors" class="sm:visible collapse sm:flex sm:justify-around sm:w-1/2 m-auto">
           <form class="md:max-w-sm m-auto ">
             <select id="level-selector" class="bg-white border border-zinc-300 text-gray-900 sm:text-sm text-xs rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full sm:p-2.5 p-1.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
-              <option value="EP" disabled>Elementary pilot</option>
+              <option value="EP">Elementary pilot</option>
               <option value="CP" selected>Club pilot</option>
               <option value="P">Pilot</option>
               <option value="AP" disabled>Advanced Pilot</option>
@@ -29,8 +31,11 @@
             </select>
           </form>
         </div>
+        <!-- End of the selector -->
+        <!-- Score that will be invisible at first and will be updated following the answers -->
         <div id="score" class="sm:font-semibold border rounded-lg sm:text-sm text-xs py-2 sm:px-6 px-2 m-auto block dark:text-white dark:border-gray-600 dark:bg-gray-700 "><p>Your score</p></div>
         <button type="button" class="submit-btn bg-white border uppercase sm:text-sm text-xs  font-semibold py-2 sm:px-6 px-4 sm:m-auto m-3 my-auto hover:opacity-70 rounded-lg dark:text-white dark:bg-gray-700 dark:border-gray-600">Submit</button>
+        <!-- Burger menu for small screens! -->
         <button id="burger-toggle" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center self-end text-sm text-gray-500 rounded-lg sm:hidden hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600 m-auto" aria-controls="selectors" aria-expanded="false">
           <span class="sr-only">Open main menu</span>
             <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
@@ -39,7 +44,7 @@
         </button>
     </nav>
     <main>
-      <form id="question-container" class="flex flex-col items-center justify-center py-4 dark:bg-slate-700">
+      <form id="question-container" class="flex flex-col self-center items-center justify-center py-4 dark:bg-slate-700 bg-red-300">
                 <!-- Here goes the questions -->
       </form>
     </main>

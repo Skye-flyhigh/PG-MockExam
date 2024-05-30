@@ -1,0 +1,152 @@
+[
+    {
+        "id": "EP1",
+        "level": "EP",
+        "category": "POF",
+        "question": "The angle is defined as:",
+        "solution": "a3",
+        "a1": "The angle between the chord line and the horizon",
+        "a2": "The angle of the horizon and the airflow around the canopy",
+        "a3": "The angle of the chord line and the airflow around the canopy",
+        "a4" : "The angle of the airflow with the wind direction"
+    } , {
+        "id": "EP2",
+        "level": "EP",
+        "category": "POF",
+        "question": "Assuming a glider has an airspeed of 20mph, you are flying in a tail wind of 10mph. Your ground speed is:",
+        "solution": "a1",
+        "a1": "30mph",
+        "a2": "10mph",
+        "a3": "20mph",
+        "a4": "40mph"
+    } , {
+        "id": "EP3",
+        "level": "EP",
+        "category": "POF",
+        "question": "Assuming a glider has a sink rate of 1m/s down, you are going up by 2m/s. What is the vertical speed of the airmass you are flying in?",
+        "solution": "a2",
+        "a1": "2m/s up",
+        "a2": "3m/s up",
+        "a3": "1m/s up",
+        "a4": "4m/s up"
+    } , {
+        "id" : "EP4",
+        "level" : "EP",
+        "category" : "POF",
+        "question" : "What is parasitic drag?",
+        "solution": "a3",
+        "a1": "an inevitable consequence of lift and is produced by the passage of an aerofoil (e.g. wing or tailplane) through the air. Air flowing over the top of a wing tends to flow inwards because the decreased pressure over the top surface is less than the pressure outside the wing tip",
+        "a2" : "When a plane reaches supersonic velocity, the leading edge of the wing is flying at supersonic speeds. This produces a shockwave that travels back past the trailing edge of the wing which is flying at subsonic velocity. The shockwave causes the airflow to separate from the trailing edge of the wing thus creating wave drag.",
+        "a3" : "It is caused by something about the aircraft’s materials, shape, or construction type that generates resistance. "
+    } , {
+        "id": "EP5",
+        "level":"EP",
+        "category": "POF",
+        "question" : "Airspeed is felt...",
+        "solution": "a2",
+        "a1": "when standing up on takeoff",
+        "a2": "on one's face when flying the glider",
+        "a3": "when looking down and around at the speed of the landscape",
+        "a4": "relative to how much the windsock is blown around"
+    }, {
+        "id": "P1",
+        "level": "P", 
+        "category": "POF",
+        "question": "If your paraglider suffers from a large asymmetric collapse at low level (300ft) and immediately starts to dive and rotate, the optimum pilot action is to:",
+        "solution": "a3",
+        "a1": "Apply opposite weight shift and strong opposite brake to try and stop the turn.",
+        "a2": "Deploy your emergency parachute.",
+        "a3": "Apply a small amount of opposite brake, and weight shift to try and slow or stop the turn, use deep pumps on the collapsed side to help the glider re-inflate.",
+        "a4": "Treat as a symmetrical collapse and pump both brakes deeply to counter the dive. Then steer out of the turn."
+        }, {
+            "id": "P2",
+            "level": "P",
+            "category": "POF",
+            "question": "If a glider is flown at the top of its weight range its performance may be different to when it is flown at the bottom of its weight range. Some of the differences in performance caused by increasing the wing loading (but remaining within the recommended ranger) are likely to be:",
+            "solution": "a2",
+            "a1": "A reduction in sink rate, improvement in glide angle, an increased best glide airspeed.",
+            "a2": "A slight increase in sink rate, no change to the glide angle, an increased best glide airspeed.",
+            "a3": "No change to the sink rate, reduction in the glide angle, increased top speed.",
+            "a4": "A reduction in sink rate, better glide angle, no change in top speed."
+        }, {
+            "id": "CP1",
+            "level": "CP",
+            "category": "Airlaw",
+            "question": "You are ridge soaring and have the ridge on your left. You are approaching a hang glider head on. What should you do?",
+            "solution": "a1",
+            "a1": "Turn right",
+            "a2": "Turn left",
+            "a3": "Do nothing",
+            "a4": "Stall the glider",
+            "a5": "Use big ears"
+        }, {
+            "id": "CP2",
+            "level": "CP",
+            "category": "Airlaw",
+            "question": "You are on a converging course with another paraglider on your right hand side. You should:",
+            "solution": "a1",
+            "a1": "Move out of their way",
+            "a2": "Hold your course",
+            "a3": "Use big ears",
+            "a4": "Do wing over to impress and take more space"
+        } , {
+            "id": "CP3",
+            "level": "CP",
+            "category": "Airlaw",
+            "question": "You are coming in to land in a designated landing. It is a very busy with pilots above and below you. Which statement is correct?",
+            "solution": "a2",
+            "a1": "The higher pilot has right of way",
+            "a2": "The lowest pilot on their final glide into land has right of way",
+            "a3": "The fastest pilot has right of way",
+            "a4": "The slowest pilot has right of way",
+            "a5": "The best pilot has right of way"
+        } , {
+            "id": "CP4",
+            "level": "CP",
+            "category": "Airlaw",
+            "question": "You are ridge soaring and wish to overtake another pilot ahead of you. Should you...",
+            "solution": "a3",
+        "a1": "Overtake in between the ridge and the other glider",
+        "a2": "Overtake between the valley and the other glider",
+        "a3": "Overtake either side, being cautious of the other pilot's soaring pattern, all turns away from the hill"
+        }, {
+            "id": "CP5",
+            "level": "CP",
+            "category": "Met",
+        "question": "Assuming the wind is perpendicular to the slope, which hill shape will give the most lift?",
+        "solution": "a3",
+        "a1": "A conical Hill",
+        "a2": "A shallow slope",
+        "a3": "Steep spine back hill"
+        } , {
+            "id": "CP6",
+            "level": "CP",
+            "category": "",
+            "question": "Freshly awarded with a Club Pilot license, it is strongly suggested to do the following statement:",
+            "solution": "a2",
+            "a1": "Turn up on any hill and fly following my own assessment",
+            "a2": "Join a club and fly within the club environment with the help of Club coaches and start to work on the Pilot tasks",
+            "a3": "Book an SIV to fully understand a paraglider and push the limits",
+            "a4": "Go on a cross country course to join Sky Gods"
+        }, {
+                "id": "CP7",
+                "level": "CP",
+                "category": "Met",
+                "question": "What are the visual cues of a forming cloud to potential storm cell and we need to watch out for?",
+                "solution": "a3",
+                "a1": "Mist and halo around the sun",
+                "a2": "Whispy, a cumulus without a great definition",
+                "a3": "A cumulus that is as defined as a cauliflower or Marge Simpson's hairstyle",
+                "a4": "Smooth and lense shaped cloud"
+        } , {
+            "id": "CP8",
+            "level": "CP",
+            "category": "",
+            "question": "",
+            "solution": "",
+            "a1": "",
+            "a2": "",
+            "a3": "",
+            "a4": ""
+        }
+]
