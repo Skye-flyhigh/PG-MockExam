@@ -19,15 +19,15 @@
             <select id="level-selector" class="bg-white border border-zinc-300 text-gray-900 sm:text-sm text-xs rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full sm:p-2.5 p-1.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
               <option value="EP">Elementary pilot</option>
               <option value="CP" selected>Club pilot</option>
-              <option value="P">Pilot</option>
+              <option value="P" disabled>Pilot</option>
               <option value="AP" disabled>Advanced Pilot</option>
             </select>
           </form>
           <form class="max-w-sm mx-auto">
             <select id="question-selector" class="bg-white border border-gray-300 text-gray-900 sm:text-sm text-xs rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full sm:p-2.5 p-1.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
               <option value="5" selected>5 questions</option>
-              <option value="10" disabled>10 questions</option>
-              <option value="20" disabled>20 questions</option>
+              <option value="10">10 questions</option>
+              <option value="20">20 questions</option>
             </select>
           </form>
         </div>
@@ -48,6 +48,9 @@
                 <!-- Here goes the questions -->
       </form>
     </main>
-    <footer class="bg-slate-100 dark:bg-slate-900"><p class="text-2xl font-bold py-4 pl-6 mx-auto dark:text-white">Thanks!</p></footer>
+    <footer class="bg-slate-100 dark:bg-slate-900 p-6">
+      <p class="text-2xl font-bold py-4 mx-auto dark:text-white">Thanks for taking the test!</p>
+      <p class="dark:text-white">This is version alpha and has still room for a lot of improvements. Suggestions welcomed, contact me via telegram <a href="https://t.me/skyegraille" target="_blank" class="text-blue-600 hover:text-blue-400 underline visited:text-purple-600 dark:text-blue-400 dark:hover:text-blue-600 dark:visited:text-purple-400">@SkyeGraille</a>.</p>
+    </footer>
     <script src="app.js"></script>
     </html>

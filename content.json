@@ -3,7 +3,7 @@
         "id": "EP1",
         "level": "EP",
         "category": "POF",
-        "question": "The angle is defined as:",
+        "question": "The angle of attack is defined as:",
         "solution": "a3",
         "a1": "The angle between the chord line and the horizon",
         "a2": "The angle of the horizon and the airflow around the canopy",
@@ -30,15 +30,16 @@
         "a3": "1m/s up",
         "a4": "4m/s up"
     } , {
-        "id" : "EP4",
-        "level" : "EP",
-        "category" : "POF",
-        "question" : "What is parasitic drag?",
-        "solution": "a3",
-        "a1": "an inevitable consequence of lift and is produced by the passage of an aerofoil (e.g. wing or tailplane) through the air. Air flowing over the top of a wing tends to flow inwards because the decreased pressure over the top surface is less than the pressure outside the wing tip",
-        "a2" : "When a plane reaches supersonic velocity, the leading edge of the wing is flying at supersonic speeds. This produces a shockwave that travels back past the trailing edge of the wing which is flying at subsonic velocity. The shockwave causes the airflow to separate from the trailing edge of the wing thus creating wave drag.",
-        "a3" : "It is caused by something about the aircraft’s materials, shape, or construction type that generates resistance. "
-    } , {
+        "id": "EP4",
+        "level": "EP",
+        "category": "Airlaw",
+        "question": "Which body is regulating civil aviation in the UK?",
+        "solution": "",
+        "a1": "Civil Aviation Authority",
+        "a2": "British Airways",
+        "a3": "British Hangliding and Paragliding Association",
+        "a4": "Your local soaring club"
+    }, {
         "id": "EP5",
         "level":"EP",
         "category": "POF",
@@ -49,32 +50,210 @@
         "a3": "when looking down and around at the speed of the landscape",
         "a4": "relative to how much the windsock is blown around"
     }, {
-        "id": "P1",
-        "level": "P", 
+        "id": "EP6",
+        "level":"EP",
         "category": "POF",
-        "question": "If your paraglider suffers from a large asymmetric collapse at low level (300ft) and immediately starts to dive and rotate, the optimum pilot action is to:",
+        "question" : "In the pre-flight check mnemonic, `Will Geordie Have His Cat Aboard?`, what does Geordie stand for?",
+        "solution": "a4",
+        "a1": "Ground",
+        "a2": "Gust",
+        "a3": "Gaggle",
+        "a4": "Glider",
+        "a5": "Go"
+    } , {
+        "id": "EP7",
+        "level":"EP",
+        "category": "POF",
+        "question" : "While performing your pre-flight check, what does the glider check involve?",
+        "solution": "a1",
+        "a1": "Checking that there is no harness twist, the glider is facing into wind ready for inflation and the line are running clear of debris and terrain.",
+        "a2": "Examining the canopy and the lines for tears and wear, making sure the glider is correctly connected to the harness and the speed system is running free as intended.",
+        "a3": "Measuring the line length and canopy porosity to make sure that glider is still good for operation.",
+        "a4": "Enjoying the colours of the glider."
+    }, {
+        "id": "EP8",
+        "level":"EP",
+        "category": "Airmanship",
+        "question" : "You are about to turn 90 degrees on the right. What do you need to check first?",
+        "solution": "a4",
+        "a1": "The wind direction by observing the windsock.",
+        "a2": "Your ground speed.",
+        "a3": "Your brakes lines.",
+        "a4": "That the space is clear."
+    } , {
+        "id": "EP9",
+        "level":"EP",
+        "category": "Airmanship",
+        "question" : "The red streamer on a paraglider or a hang glider indicates:",
         "solution": "a3",
-        "a1": "Apply opposite weight shift and strong opposite brake to try and stop the turn.",
-        "a2": "Deploy your emergency parachute.",
-        "a3": "Apply a small amount of opposite brake, and weight shift to try and slow or stop the turn, use deep pumps on the collapsed side to help the glider re-inflate.",
-        "a4": "Treat as a symmetrical collapse and pump both brakes deeply to counter the dive. Then steer out of the turn."
-        }, {
-            "id": "P2",
-            "level": "P",
-            "category": "POF",
-            "question": "If a glider is flown at the top of its weight range its performance may be different to when it is flown at the bottom of its weight range. Some of the differences in performance caused by increasing the wing loading (but remaining within the recommended ranger) are likely to be:",
-            "solution": "a2",
-            "a1": "A reduction in sink rate, improvement in glide angle, an increased best glide airspeed.",
-            "a2": "A slight increase in sink rate, no change to the glide angle, an increased best glide airspeed.",
-            "a3": "No change to the sink rate, reduction in the glide angle, increased top speed.",
-            "a4": "A reduction in sink rate, better glide angle, no change in top speed."
-        }, {
-            "id": "CP1",
-            "level": "CP",
-            "category": "Airlaw",
-            "question": "You are ridge soaring and have the ridge on your left. You are approaching a hang glider head on. What should you do?",
-            "solution": "a1",
-            "a1": "Turn right",
+        "a1": "A VIP",
+        "a2": "The wind direction for the pilot",
+        "a3": "A inexperienced pilot who should be given ample space",
+        "a4": "A pilot qualified to fly cross-country"
+    } , {
+        "id": "EP10",
+        "level":"EP",
+        "category": "Met",
+        "question" : "Which scenario would you expect to encounter turbulent air?",
+        "solution": "a1",
+        "a1": "A clear blue sky with puffy cloud",
+        "a2": "A dull overcast day",
+        "a3": "A wintery blue sky",
+        "a4": "A summery blue sky at the coast"
+    }, {
+        "id": "EP11",
+        "level":"EP",
+        "category": "Met",
+        "question" : "Which scenario will produce the most lift?",
+        "solution": "a2",
+        "a1": "A shallow rounded slope, with wind direction 45 degrees off to the right",
+        "a2": "A steep rounded slope, wind direction 90 degrees, directly on the slope",
+        "a3": "A conical hill"
+    }, {
+        "id": "EP12",
+        "level":"EP",
+        "category": "Met",
+        "question" : "What do you expect to find on the lee side of a two storey building?",
+        "solution": "a3",
+        "a1": "Laminar wind flow",
+        "a2": "Still wind",
+        "a3": "Turbulent wind flow, rotors"
+    }, {
+        "id": "EP13",
+        "level":"EP",
+        "category": "Met",
+        "question" : "The venturi effect is defined by:",
+        "solution": "a2",
+        "a1": "A decrease of wind speed as you get lower, closer to the ground",
+        "a2": "The acceleration of the airflow and a lower pressure around round objects such as the brow of a hill",
+        "a3": "The gust felt on the pilot's face standing on takeoff",
+        "a4": "the angle at which the airflow meets the wing"
+    }, {
+        "id": "EP14",
+        "level":"EP",
+        "category": "Airlaw",
+        "question" : "What is the maximum height you may tow a paraglider or a hanglider without Tow Site permission granted by the Civil Aviation Authority?",
+        "solution": "a2",
+        "a1": "600 metres agl (Above Ground Level)",
+        "a2": "60 metres agl",
+        "a3": "600 feet agl",
+        "a4": "60 feet agl"
+    }, {
+        "id": "EP15",
+        "level":"EP",
+        "category": "POF",
+        "question" : "Lift is generated by airflow around the aerofoil inducing:",
+        "solution": "a3",
+        "a1": "A higher pressure on top surface and a lower pressure around the bottom surface",
+        "a2": "A high pressure on top surface and around the bottom surface",
+        "a3": "A lower pressure on the top surface and a higher pressure around the bottom surface",
+        "a4": "A low pressure on the top surface and around the bottom surface "
+    }, {
+        "id": "EP16",
+        "level":"EP",
+        "category": "Airmanship",
+        "question" : "In the pre-flight check mneumonic, `Will Geordie Has His Cat Aboard (Today)`, the second H is a Harness Check. How many check points are there?",
+        "solution": "a3",
+        "a1": "5 points: 2 x leg straps, chest strap, 2 x karabiners",
+        "a2": "6 points: 2 x leg straps, chest strap, 2 x karabiners, shoulder straps",
+        "a3": "6 points: 2 x leg straps, chest strap, 2 x karabiners, length of chest strap between karabiners"
+    }, {
+        "id": "EP17",
+        "level":"EP",
+        "category": "Airmanship",
+        "question" : "The term 'Daily Inspection' refers to:",
+        "solution": "a2",
+        "a1": "the checks you must perform before each and every flight",
+        "a2": "the thorough checking of your equipment at the start of each flying day",
+        "a3": "the checking of a school's instructional staff by the CFI",
+        "a4": "the inspection that is carried out every year by a service centre"
+    }, {
+        "id": "EP18",
+        "level":"EP",
+        "category": "POF",
+        "question" : "If too much brake is applied to a canopy in free flight:",
+        "solution": "a4",
+        "a1": "induced drag is decreased and a tuck may occur",
+        "a2": "increase the sink rate and the glider takes the pilot back down",
+        "a3": "there is a corresponding improvement to the glide angle",
+        "a4": "the angle of attack is increased and a stall will result"
+    }, {
+        "id": "EP19",
+        "level":"EP",
+        "category": "Airlaw",
+        "question" : "You are flying towards a Hanglider in the UK, in open air space and same altitude, you should:",
+        "solution": "a1",
+        "a1": "Turn right",
+        "a2": "Turn left",
+        "a3": "Shout",
+        "a4": "Pull the brake in hope to swing below the Hanglider"
+    }, {
+        "id": "EP20",
+        "level":"EP",
+        "category": "Airlaw",
+        "question" : "You are hill soaring in the UK and wish to overtake a slower glider travelling in the same direction. You should:",
+        "solution": "a3",
+        "a1": "Overtake above",
+        "a2": "Overtake on the valley side of the slower glider",
+        "a3": "Either check all clear to turn back along the ridge or overtake them on either side if there is plenty room, being cautious and allow them room for a possible turn away from the hill",
+        "a4": "Swing underneath them"
+    }, {
+        "id": "EP21",
+        "level":"EP",
+        "category": "Airlaw",
+        "question" : "Who needs to abide to the Air law as detailed in the Air Navigation Order?",
+        "solution": "a1",
+        "a1": "All aviators from drones to A747 including the gliders",
+        "a2": "The military only",
+        "a3": "Powered aircraft only",
+        "a4": "Kites"
+    }, {
+        "id": "EP22",
+        "level":"EP",
+        "category": "Met",
+        "question" : "Which scenario is the easiest to land in?",
+        "solution": "a1",
+        "a1": "A head wind",
+        "a2": "A nill wind",
+        "a3": "A tail wind",
+        "a4": "A cross wind"
+    }, {
+        "id": "EP23",
+        "level":"EP",
+        "category": "POF",
+        "question" : "While performing the pre-flight checks, the Harness check includes the length of the chest strap between the karabiners. What is the main reason of this check?",
+        "solution": "a4",
+        "a1": "Wide open to allow comfort while ground handling.",
+        "a2": "Really short to make sure that the harness is tight and secure.",
+        "a3": "The length of the chest strap doesn't affect the paraglider nor the pilot.",
+        "a4": "To ensure a stable flight. The length is set by the manufacturer of the wing and can be roughly measured with the pilot's forearm + fist length. It is the right compromise between the leverage force between the pilot and the glider and the risque of riser twists."
+    }, {
+        "id": "EP24",
+        "level":"EP",
+        "category": "POF",
+        "question" : "While ridge soaring with other pilots, a pilot at the same level passes up wind. What may you expect?",
+        "solution": "a2",
+        "a1": "A laminar airflow",
+        "a2": "Turbulent airflow from the other paraglider vortex from their induced drag",
+        "a3": "A sudden stop leading to a stall",
+        "a4": "A loss of lift"
+    }, {
+        "id": "EP25",
+        "level":"EP",
+        "category": "POF",
+        "question" : "You are applying more and more brake on a paraglider. Airflow is disrupted around the aerofoil. What happened?",
+        "solution": "a3",
+        "a1": "The angle of attack increased so much that the glider collapsed",
+        "a2": "The angle of attack reduced so much that the glider collapsed",
+        "a3": "The angle of attack increased so much that the glider stalled",
+        "a4": "The angle of attack reduced so much that the glider collapsed"
+    }, {
+        "id": "CP1",
+        "level": "CP",
+        "category": "Airlaw",
+        "question": "You are ridge soaring and have the ridge on your left. You are approaching a hang glider head on. What should you do?",
+        "solution": "a1",
+        "a1": "Turn right",
             "a2": "Turn left",
             "a3": "Do nothing",
             "a4": "Stall the glider",
@@ -106,22 +285,23 @@
             "category": "Airlaw",
             "question": "You are ridge soaring and wish to overtake another pilot ahead of you. Should you...",
             "solution": "a3",
-        "a1": "Overtake in between the ridge and the other glider",
-        "a2": "Overtake between the valley and the other glider",
-        "a3": "Overtake either side, being cautious of the other pilot's soaring pattern, all turns away from the hill"
+            "a1": "Overtake in between the ridge and the other glider",
+            "a2": "Overtake between the valley and the other glider",
+            "a3": "Overtake either side, being cautious of the other pilot's soaring pattern, all turns away from the hill"
         }, {
             "id": "CP5",
             "level": "CP",
             "category": "Met",
-        "question": "Assuming the wind is perpendicular to the slope, which hill shape will give the most lift?",
-        "solution": "a3",
-        "a1": "A conical Hill",
-        "a2": "A shallow slope",
-        "a3": "Steep spine back hill"
+            "question": "Assuming the wind is perpendicular to the slope, which hill shape will give the most dynamic lift?",
+            "solution": "a3",
+            "a1": "A conical Hill",
+            "a2": "A shallow slope",
+            "a3": "Steep spine back hill",
+            "a4": "Flat lands"
         } , {
             "id": "CP6",
             "level": "CP",
-            "category": "",
+            "category": "Airmanship",
             "question": "Freshly awarded with a Club Pilot license, it is strongly suggested to do the following statement:",
             "solution": "a2",
             "a1": "Turn up on any hill and fly following my own assessment",
@@ -139,7 +319,108 @@
                 "a3": "A cumulus that is as defined as a cauliflower or Marge Simpson's hairstyle",
                 "a4": "Smooth and lense shaped cloud"
         } , {
-            "id": "CP8",
+            "id" : "CP8",
+            "level" : "CP",
+            "category" : "POF",
+            "question" : "What is parasitic drag?",
+            "solution": "a3",
+            "a1": "an inevitable consequence of lift and is produced by the passage of an aerofoil (e.g. wing or tailplane) through the air. Air flowing over the top of a wing tends to flow inwards because the decreased pressure over the top surface is less than the pressure outside the wing tip",
+            "a2" : "When a plane reaches supersonic velocity, the leading edge of the wing is flying at supersonic speeds. This produces a shockwave that travels back past the trailing edge of the wing which is flying at subsonic velocity. The shockwave causes the airflow to separate from the trailing edge of the wing thus creating wave drag.",
+            "a3" : "It is caused by something about the aircraft’s materials, shape, or construction type that generates resistance. "
+        } , {
+            "id": "CP9",
+            "level": "CP",
+            "category": "Met",
+            "question": "The following minimum and maximum readings are recorded from an anemometer over a 3 minute period. Which conditions would be most hazardous to fly in?",
+            "solution": "a2",
+            "a1": "15 mph : 16 mph",
+            "a2": "7 mph : 15 mph",
+            "a3": "5 mph : 7 mph"
+        }, {
+            "id": "CP10",
+            "level": "CP",
+            "category": "Met",
+            "question": "What is the name of those clouds?",
+            "img": "img/CP10.png",
+            "solution": "a4",
+            "a1": "Cumulus, associated with thermals",
+            "a2": "Alto stratus",
+            "a3": "Cumulonimbus",
+            "a4": "Lenticular or wave bars, associated with strong winds"
+        }, {
+            "id": "CP11",
+            "level": "CP",
+            "category": "Met",
+            "question": "You noticed these clouds in the area where you fly. What do they suggest?",
+            "img": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Cumulus_congestus_cloud.jpg",
+            "solution": "a1",
+            "a1": "These clouds are cumulus congestus, a step before they potentially turn into cumulonimbus indicating dangerous lift with associated severely turbulent air.",
+            "a2": "Soaring conditions are improving.",
+            "a3": "Stratus clouds indicate colder air ahead of warm front.",
+            "a4": "These cumulus will provide a great shade smoothing any dangerous thermals."
+        }, {
+            "id": "CP12",
+            "level": "CP",
+            "category": "Met",
+            "question": "It is forecasted to be a light and sunny day, it is 11am during Summer, which slope will most likely have air flowing up?",
+            "solution": "a2",
+            "a1": "A slope facing North",
+            "a2": "A slope facing East",
+            "a3": "A slope facing South",
+            "a4": "A slope facing West"
+        }, {
+            "id": "CP13",
+            "level": "CP",
+            "category": "Met",
+            "question": "On a synoptic chart, a cold front, symbolised by a blue line with several triangles running along pointing, is forecasted. What should you expect?",
+            "solution": "a3",
+            "a1": "As the warm airmass is sliding on top of the current cold airmass, you expect an overcast day from a succession of cirro level clouds, to alto level clouds to lower cloud associated with rain and poor visibility.",
+            "a2": "Really poor visibility due to low level clouds, fog and rain.",
+            "a3": "Unstable weather as the cold airmass is sliding underneath the current warm airmass, generating tall towering clouds such as cumulus congestus to cumulonimbus and showers.",
+            "a4": "A drop in the temperature."
+        }, {
+            "id": "CP14",
+            "level": "CP",
+            "category": "Met",
+            "question": "You wish to fly in the UK. Which one of those scenario below is the most hazardous to fly in?",
+            "solution": "a4",
+            "a1": "Early afternoon during the winter month",
+            "a2": "Early evening in June",
+            "a3": "Morning of autumn",
+            "a4": "Early afternoon in spring"
+        }, {
+            "id": "CP15",
+            "level": "CP",
+            "category": "Met",
+            "question": "It is the high summer time and you wish to fly. Which time of the day would be the most hazardous for beginners to fly?",
+            "solution": "a2",
+            "a1": "Morning",
+            "a2": "Early afternoon",
+            "a3": "End afternoon",
+            "a4": "Early evening"
+        }, {
+            "id": "CP16",
+            "level": "CP",
+            "category": "Met",
+            "question": "Following this synoptic chart, what wind direction would you expect in the midlands?",
+            "img": "img/CP16.png",
+            "solution": "a3",
+            "a1": "Northerly",
+            "a2": "Easterly",
+            "a3": "Southerly",
+            "a4": "Westerly"
+        }, {
+            "id": "CP17",
+            "level": "CP",
+            "category": "Met",
+            "question": "",
+            "solution": "",
+            "a1": "",
+            "a2": "",
+            "a3": "",
+            "a4": ""
+        }, {
+            "id": "CP18",
             "level": "CP",
             "category": "",
             "question": "",
@@ -148,5 +429,515 @@
             "a2": "",
             "a3": "",
             "a4": ""
-        }
+        }, {
+            "id": "CP19",
+            "level": "CP",
+            "category": "",
+            "question": "",
+            "solution": "",
+            "a1": "",
+            "a2": "",
+            "a3": "",
+            "a4": ""
+        }, {
+            "id": "CP20",
+            "level": "CP",
+            "category": "",
+            "question": "",
+            "solution": "",
+            "a1": "",
+            "a2": "",
+            "a3": "",
+            "a4": ""
+        },  {
+            "id": "CP21",
+            "level": "CP",
+            "category": "",
+            "question": "",
+            "solution": "",
+            "a1": "",
+            "a2": "",
+            "a3": "",
+            "a4": ""
+        }, {
+            "id": "CP22",
+            "level": "CP",
+            "category": "",
+            "question": "",
+            "img": "",
+            "solution": "",
+            "a1": "",
+            "a2": "",
+            "a3": ""
+        }, {
+            "id": "CP23",
+            "level": "CP",
+            "category": "",
+            "question": "",
+            "solution": "",
+            "a1": "",
+            "a2": "",
+            "a3": "",
+            "a4": ""
+        }, {
+            "id": "CP24",
+            "level": "CP",
+            "category": "",
+            "question": "",
+            "solution": "",
+            "a1": "",
+            "a2": "",
+            "a3": "",
+            "a4": ""
+        }, {
+            "id": "CP25",
+            "level": "CP",
+            "category": "",
+            "question": "",
+            "solution": "",
+            "a1": "",
+            "a2": "",
+            "a3": "",
+            "a4": ""
+        }, {
+            "id": "CP26",
+            "level": "CP",
+            "category": "",
+            "question": "",
+            "solution": "",
+            "a1": "",
+            "a2": "",
+            "a3": "",
+            "a4": ""
+        }, {
+            "id": "CP27",
+            "level": "CP",
+            "category": "",
+            "question": "",
+            "solution": "",
+            "a1": "",
+            "a2": "",
+            "a3": "",
+            "a4": ""
+        }, {
+            "id": "CP28",
+            "level": "CP",
+            "category": "",
+            "question": "",
+            "solution": "",
+            "a1": "",
+            "a2": "",
+            "a3": "",
+            "a4": ""
+        }, {
+            "id": "CP29",
+            "level": "CP",
+            "category": "",
+            "question": "",
+            "solution": "",
+            "a1": "",
+            "a2": "",
+            "a3": "",
+            "a4": ""
+        }, {
+            "id": "CP30",
+            "level": "CP",
+            "category": "",
+            "question": "",
+            "solution": "",
+            "a1": "",
+            "a2": "",
+            "a3": "",
+            "a4": ""
+        },  {
+            "id": "CP31",
+            "level": "CP",
+            "category": "",
+            "question": "",
+            "solution": "",
+            "a1": "",
+            "a2": "",
+            "a3": "",
+            "a4": ""
+        }, {
+            "id": "CP32",
+            "level": "CP",
+            "category": "",
+            "question": "",
+            "img": "",
+            "solution": "",
+            "a1": "",
+            "a2": "",
+            "a3": ""
+        }, {
+            "id": "CP33",
+            "level": "CP",
+            "category": "",
+            "question": "",
+            "solution": "",
+            "a1": "",
+            "a2": "",
+            "a3": "",
+            "a4": ""
+        }, {
+            "id": "CP34",
+            "level": "CP",
+            "category": "",
+            "question": "",
+            "solution": "",
+            "a1": "",
+            "a2": "",
+            "a3": "",
+            "a4": ""
+        }, {
+            "id": "CP35",
+            "level": "CP",
+            "category": "",
+            "question": "",
+            "solution": "",
+            "a1": "",
+            "a2": "",
+            "a3": "",
+            "a4": ""
+        }, {
+            "id": "CP36",
+            "level": "CP",
+            "category": "",
+            "question": "",
+            "solution": "",
+            "a1": "",
+            "a2": "",
+            "a3": "",
+            "a4": ""
+        }, {
+            "id": "CP37",
+            "level": "CP",
+            "category": "",
+            "question": "",
+            "solution": "",
+            "a1": "",
+            "a2": "",
+            "a3": "",
+            "a4": ""
+        }, {
+            "id": "CP38",
+            "level": "CP",
+            "category": "",
+            "question": "",
+            "solution": "",
+            "a1": "",
+            "a2": "",
+            "a3": "",
+            "a4": ""
+        }, {
+            "id": "CP39",
+            "level": "CP",
+            "category": "",
+            "question": "",
+            "solution": "",
+            "a1": "",
+            "a2": "",
+            "a3": "",
+            "a4": ""
+        }, {
+            "id": "CP40",
+            "level": "CP",
+            "category": "",
+            "question": "",
+            "solution": "",
+            "a1": "",
+            "a2": "",
+            "a3": "",
+            "a4": ""
+        },  {
+            "id": "CP41",
+            "level": "CP",
+            "category": "",
+            "question": "",
+            "solution": "",
+            "a1": "",
+            "a2": "",
+            "a3": "",
+            "a4": ""
+        }, {
+            "id": "CP42",
+            "level": "CP",
+            "category": "",
+            "question": "",
+            "img": "",
+            "solution": "",
+            "a1": "",
+            "a2": "",
+            "a3": ""
+        }, {
+            "id": "CP43",
+            "level": "CP",
+            "category": "",
+            "question": "",
+            "solution": "",
+            "a1": "",
+            "a2": "",
+            "a3": "",
+            "a4": ""
+        }, {
+            "id": "CP44",
+            "level": "CP",
+            "category": "",
+            "question": "",
+            "solution": "",
+            "a1": "",
+            "a2": "",
+            "a3": "",
+            "a4": ""
+        }, {
+            "id": "CP45",
+            "level": "CP",
+            "category": "",
+            "question": "",
+            "solution": "",
+            "a1": "",
+            "a2": "",
+            "a3": "",
+            "a4": ""
+        }, {
+            "id": "CP46",
+            "level": "CP",
+            "category": "",
+            "question": "",
+            "solution": "",
+            "a1": "",
+            "a2": "",
+            "a3": "",
+            "a4": ""
+        }, {
+            "id": "CP47",
+            "level": "CP",
+            "category": "",
+            "question": "",
+            "solution": "",
+            "a1": "",
+            "a2": "",
+            "a3": "",
+            "a4": ""
+        }, {
+            "id": "CP48",
+            "level": "CP",
+            "category": "",
+            "question": "",
+            "solution": "",
+            "a1": "",
+            "a2": "",
+            "a3": "",
+            "a4": ""
+        }, {
+            "id": "CP49",
+            "level": "CP",
+            "category": "",
+            "question": "",
+            "solution": "",
+            "a1": "",
+            "a2": "",
+            "a3": "",
+            "a4": ""
+        }, {
+            "id": "P1",
+            "level": "P", 
+            "category": "POF",
+            "question": "If your paraglider suffers from a large asymmetric collapse at low level (300ft) and immediately starts to dive and rotate, the optimum pilot action is to:",
+            "solution": "a3",
+            "a1": "Apply opposite weight shift and strong opposite brake to try and stop the turn.",
+            "a2": "Deploy your emergency parachute.",
+            "a3": "Apply a small amount of opposite brake, and weight shift to try and slow or stop the turn, use deep pumps on the collapsed side to help the glider re-inflate.",
+            "a4": "Treat as a symmetrical collapse and pump both brakes deeply to counter the dive. Then steer out of the turn."
+            }, {
+                "id": "P2",
+                "level": "P",
+                "category": "POF",
+                "question": "If a glider is flown at the top of its weight range its performance may be different to when it is flown at the bottom of its weight range. Some of the differences in performance caused by increasing the wing loading (but remaining within the recommended ranger) are likely to be:",
+                "solution": "a2",
+                "a1": "A reduction in sink rate, improvement in glide angle, an increased best glide airspeed.",
+                "a2": "A slight increase in sink rate, no change to the glide angle, an increased best glide airspeed.",
+                "a3": "No change to the sink rate, reduction in the glide angle, increased top speed.",
+                "a4": "A reduction in sink rate, better glide angle, no change in top speed."
+            }, {
+                "id": "P3",
+                "level":"P",
+                "category": "",
+                "question" : "",
+                "solution": "",
+                "a1": "",
+                "a2": "",
+                "a3": "",
+                "a4": ""
+            },{
+                "id": "P4",
+                "level":"P",
+                "category": "",
+                "question" : "",
+                "solution": "",
+                "a1": "",
+                "a2": "",
+                "a3": "",
+                "a4": ""
+            },{
+                "id": "P5",
+                "level":"P",
+                "category": "",
+                "question" : "",
+                "solution": "",
+                "a1": "",
+                "a2": "",
+                "a3": "",
+                "a4": ""
+            },{
+                "id": "P6",
+                "level":"P",
+                "category": "",
+                "question" : "",
+                "solution": "",
+                "a1": "",
+                "a2": "",
+                "a3": "",
+                "a4": ""
+            },{
+                "id": "P7",
+                "level":"P",
+                "category": "",
+                "question" : "",
+                "solution": "",
+                "a1": "",
+                "a2": "",
+                "a3": "",
+                "a4": ""
+            },{
+                "id": "P8",
+                "level":"P",
+                "category": "",
+                "question" : "",
+                "solution": "",
+                "a1": "",
+                "a2": "",
+                "a3": "",
+                "a4": ""
+            },{
+                "id": "P9",
+                "level":"P",
+                "category": "",
+                "question" : "",
+                "solution": "",
+                "a1": "",
+                "a2": "",
+                "a3": "",
+                "a4": ""
+            },{
+                "id": "P10",
+                "level":"P",
+                "category": "",
+                "question" : "",
+                "solution": "",
+                "a1": "",
+                "a2": "",
+                "a3": "",
+                "a4": ""
+            },{
+                "id": "P11",
+                "level":"P",
+                "category": "",
+                "question" : "",
+                "solution": "",
+                "a1": "",
+                "a2": "",
+                "a3": "",
+                "a4": ""
+            },{
+                "id": "P12",
+                "level":"P",
+                "category": "",
+                "question" : "",
+                "solution": "",
+                "a1": "",
+                "a2": "",
+                "a3": "",
+                "a4": ""
+            },{
+                "id": "P13",
+                "level":"P",
+                "category": "",
+                "question" : "",
+                "solution": "",
+                "a1": "",
+                "a2": "",
+                "a3": "",
+                "a4": ""
+            },{
+                "id": "P14",
+                "level":"P",
+                "category": "",
+                "question" : "",
+                "solution": "",
+                "a1": "",
+                "a2": "",
+                "a3": "",
+                "a4": ""
+            },{
+                "id": "P15",
+                "level":"P",
+                "category": "",
+                "question" : "",
+                "solution": "",
+                "a1": "",
+                "a2": "",
+                "a3": "",
+                "a4": ""
+            },{
+                "id": "P16",
+                "level":"P",
+                "category": "",
+                "question" : "",
+                "solution": "",
+                "a1": "",
+                "a2": "",
+                "a3": "",
+                "a4": ""
+            },{
+                "id": "P17",
+                "level":"P",
+                "category": "",
+                "question" : "",
+                "solution": "",
+                "a1": "",
+                "a2": "",
+                "a3": "",
+                "a4": ""
+            },{
+                "id": "P18",
+                "level":"P",
+                "category": "",
+                "question" : "",
+                "solution": "",
+                "a1": "",
+                "a2": "",
+                "a3": "",
+                "a4": ""
+            },{
+                "id": "P19",
+                "level":"P",
+                "category": "",
+                "question" : "",
+                "solution": "",
+                "a1": "",
+                "a2": "",
+                "a3": "",
+                "a4": ""
+            },{
+                "id": "P20",
+                "level":"P",
+                "category": "",
+                "question" : "",
+                "solution": "",
+                "a1": "",
+                "a2": "",
+                "a3": "",
+                "a4": ""
+            }
 ]

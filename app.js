@@ -34,6 +34,7 @@ levelSelector.addEventListener("change", (e) => {
     let newLevel = e.currentTarget.value;
     reset();
     displayQuestion(numOfQuestions, newLevel);
+    level = newLevel;
 })
 
 // select the number of questions
@@ -41,8 +42,8 @@ questionSelector.addEventListener("change", (e) => {
     let newNum = Number(e.currentTarget.value); //e.currentTarget returns a string
     reset();
     displayQuestion(newNum, level);
+    numOfQuestions = newNum;
 })
-
 // select the category of the questions
 
 // Toggle for the selectors on small screens
@@ -73,18 +74,16 @@ function displayQuestion(num, level) {
          } while (arr.length < lngth)
          return arr;
       }
-
-    const arr = getRanArr(5); // this number will depend on the number of questions in a given level
-
-    //fetch the content from external JSON file
-    fetch('content.json')
+      //fetch the content from external JSON file
+      fetch('content.json')
       .then(response => response.json())
       .then(data => {
-            //Filter the questions to get the targeted level
-        const filteredQuestion = data.filter((question) => {return question.level === level})
-
+          //Filter the questions to get the targeted level
+          const filteredQuestion = data.filter((question) => {return question.level === level})
+          const arr = getRanArr(filteredQuestion.length); // this number will depend on the number of questions in a given level
+        
         // Create a question container for each of the selected question in a random order
-        for (let i = 0; i < numOfQuestions; i++) {
+        for (let i = 0; i < num; i++) {
             let item = filteredQuestion[arr[i]];
             const element = document.createElement("article");
             let attr = document.createAttribute("data-id");
@@ -100,12 +99,26 @@ function displayQuestion(num, level) {
             `;
             questionContainer.appendChild(element);
 
-            // display as many answers as there are in the database, assuming the database has always the same structure.
-            let answersKeys = Object.keys(item).slice(5);
-            let answers = Object.values(item).slice(5);
+            // display pictures in the questions in the question container
+            let questionTitle = document.getElementById(`question-${i + 1}`)
 
+            if (Object.hasOwn(item, 'img')) {
+                const img = document.createElement("img")
+                img.src = item.img;
+                img.alt = item.id;
+                img.style.width = "500px";
+                img.style.height = "auto";
+                img.classList.add("rounded-md", "self-center")
+                
+                element.insertBefore(img, questionTitle);
+            }
+            // display as many answers as there are in the database, assuming the database has always the same structure with the answers at the end.
+            let answersIndex = Object.keys(item).indexOf("a1");
+            let answersKeys = Object.keys(item).slice(answersIndex)
+            let answers = Object.values(item).slice(answersIndex);
+            
             let answerContainer = document.getElementById(`answer-container-${i + 1}`);
-
+            
             answersKeys.forEach((answerKey) => {
                 const answer = document.createElement("div");
                 const index = answersKeys.indexOf(answerKey);
