@@ -37,7 +37,7 @@
         "solution": "a1",
         "a1": "Civil Aviation Authority",
         "a2": "British Airways",
-        "a3": "British Hangliding and Paragliding Association",
+        "a3": "British Hang gliding and Paragliding Association",
         "a4": "Your local soaring club"
     }, {
         "id": "EP5",
@@ -324,7 +324,7 @@
             "category" : "POF",
             "question" : "What is parasitic drag?",
             "solution": "a3",
-            "a1": "an inevitable consequence of lift and is produced by the passage of an aerofoil (e.g. wing or tailplane) through the air. Air flowing over the top of a wing tends to flow inwards because the decreased pressure over the top surface is less than the pressure outside the wing tip",
+            "a1": "A type of aerodynamic drag that occurs as a byproduct of lift generation on a wing or airfoil. It is fundamentally linked to the production of lift and is most significant at lower airspeeds.",
             "a2" : "When a plane reaches supersonic velocity, the leading edge of the wing is flying at supersonic speeds. This produces a shockwave that travels back past the trailing edge of the wing which is flying at subsonic velocity. The shockwave causes the airflow to separate from the trailing edge of the wing thus creating wave drag.",
             "a3" : "It is caused by something about the aircraft’s materials, shape, or construction type that generates resistance. "
         } , {
@@ -375,7 +375,7 @@
             "question": "On a synoptic chart, a cold front, symbolised by a blue line with several triangles running along pointing in the travel direction, is forecasted. What should you expect?",
             "img": "img/CP13.png",
             "solution": "a3",
-            "a1": "As the warm airmass is sliding on top of the current cold airmass, you expect an overcast day from a succession of cirro level clouds, to alto level clouds to lower cloud associated with rain and poor visibility.",
+            "a1": "As the warm airmass is sliding on top of the current cold airmass, you expect an overcast day from a succession of cirrus and cirro-stratus, to alto level clouds to lower cloud associated with rain and poor visibility.",
             "a2": "Really poor visibility due to low level clouds, fog and rain.",
             "a3": "Unstable weather as the cold airmass is sliding underneath the current warm airmass, generating tall towering clouds such as cumulus congestus to cumulonimbus and showers.",
             "a4": "Bright and sunny sky, no clouds, hazy visibility."
@@ -426,10 +426,10 @@
             "category": "Met",
             "question": "You are ridge soaring in the UK and the forecast indicates an increase of wind later that day. What should you consider?",
             "solution": "a4",
-            "a1": "The speed bar will be useful once the wind increase to be able to carry on soaring.",
-            "a2": "The increase of the wind won't affect your flying and there'll be nothing to do differently from now.",
-            "a3": "Monitor your ground speed while soaring and attempt a top landing if it decreases to much with the potential use of the speed bar.",
-            "a4": "Monitor your ground speed while soaring and fly out if it decreases to much with the potential use of the speed bar to do a bottom landing."
+            "a1": "The speed bar will be useful once the wind increases to be able to carry on soaring.",
+            "a2": "The increase of the wind won't affect your flying and there'll be nothing to do differently.",
+            "a3": "Monitor your ground speed into wind, and if your speed decreases, attempt a top landing.",
+            "a4": "Monitor your ground speed while soaring, and fly away from the ridge if speed decreases. Perform a bottom landing."
         }, {
             "id": "CP19",
             "level": "CP",
@@ -444,11 +444,11 @@
             "id": "CP20",
             "level": "CP",
             "category": "Met",
-            "question": "The average worldwide atmospheric pressure is:",
+            "question": "The average worldwide atmospheric pressure At Mean Sea Level (AMSL) is:",
             "solution": "a3",
-            "a1": "1000.2 mb.",
-            "a2": "1003.2 mb.",
-            "a3": "1013.2 mb.",
+            "a1": "1000.2 mb",
+            "a2": "1003.2 mb",
+            "a3": "1013.2 mb",
             "a4": "1023.2 mb"
         },  {
             "id": "CP21",
@@ -456,10 +456,10 @@
             "category": "POF",
             "question": "You are slowing down your glider by applying brakes. What will occur to your glider? ",
             "solution": "a1",
-            "a1": "The angle of attack increase, parasitic drag decrease and induce drag increase",
-            "a2": "The angle of attack increase, parasitic drag increase and induce drag decrease",
-            "a3": "The angle of attack decrease, parasitic drag decrease and induce drag increase",
-            "a4": "The angle of attack decrease, parasitic drag increase and induce drag decrease"
+            "a1": "The angle of attack increases, parasitic drag decreases and induce drag increases.",
+            "a2": "The angle of attack increases, parasitic drag increases and induce drag decreases.",
+            "a3": "The angle of attack decreases, parasitic drag decreases and induce drag increases.",
+            "a4": "The angle of attack decreases, parasitic drag increases and induce drag decreases."
         }, {
             "id": "CP22",
             "level": "CP",
@@ -468,9 +468,9 @@
             "img": "img/CP22.png",
             "solution": "a2",
             "a1": "The concentration point",
-            "a2": "The center of gravity",
+            "a2": "The centre of pressure",
             "a3": "The gravitation point",
-            "a4": "The meeting point"
+            "a4": "The centre of gravity"
         }, {
             "id": "CP23",
             "level": "CP",
@@ -485,10 +485,10 @@
             "id": "CP24",
             "level": "CP",
             "category": "POF",
-            "question": "A stall occurs when lift get disrupted. What are the symptoms of a stall?",
+            "question": "A stall occurs when lift get disrupted. What are the symptoms of a stall on a paraglider or hang glider?",
             "solution": "a4",
             "a1": "High airspeed on the pilot's face, whistling lines in the airstream",
-            "a2": "A complete drop of the glider towards the ground",
+            "a2": "Buffeting",
             "a3": "The glider induce a violent turn and start to descend in a spiral dive",
             "a4": "Very little airspeed on the pilot's face, quiet, controls can be really hard to push before going soft"
         }, {
@@ -507,7 +507,7 @@
             "category": "POF",
             "question": "A given glider is said to have a glide ratio of 10:1. What does it mean?",
             "solution": "a1",
-            "a1": "It refers to the ability of the glider to cover a certain length, e.g. 1000m, over a certain height, e.g. 100m, in still air.",
+            "a1": "It refers to the ability of the glider to cover a certain distance, e.g. 1000m, from a height, e.g. 100m, in still air.",
             "a2": "It refers to the glider load on fabric which is distributed by a 10th across all the lines.",
             "a3": "The total lift is 10 time greater than total weight.",
             "a4": "The total drag is only a 10th of the total lift."
@@ -545,7 +545,7 @@
             "id": "CP30",
             "level": "CP",
             "category": "POF",
-            "question": "Which glider most likely have the lowest aspect ratio?",
+            "question": "Which glider most likely has the lowest aspect ratio?",
             "solution": "a1",
             "a1": "A school glider",
             "a2": "A progression glider",
@@ -557,10 +557,10 @@
             "category": "POF",
             "question": "You are flying in rising air at 300ft/min and your glider has a sink rate of 200ft/min. Which of these statements is correct?",
             "solution": "a3",
-            "a1": "You are sinking by 100ft/min.",
-            "a2": "You are sinking by 400ft/min.",
-            "a3": "You are going up by 100ft/min.",
-            "a4": "You are going up by 400ft/min."
+            "a1": "You are sinking at 100ft/min.",
+            "a2": "You are sinking at 400ft/min.",
+            "a3": "You are rising at 100ft/min.",
+            "a4": "You are rising at 400ft/min."
         }, {
             "id": "CP32",
             "level": "CP",
@@ -576,7 +576,7 @@
             "level": "CP",
             "category": "POF",
             "question": "You spotted a cumulus congestus nearby, first sign of a strong instability, you need to quickly loose height and steer away by using big ears and speed bar technic. In which order should you do it?",
-            "solution": "",
+            "solution": "a4",
             "a1": "Push the speed bar first, and then pull the big ears once after the other. Reverse the process to release.",
             "a2": "Push the speed bar and pull the big ears together at once.",
             "a3": "Pull one big ear, push the speed bar and pull the last big ear in.",
@@ -597,7 +597,7 @@
             "category": "Airlaw",
             "question": "What does NOTAM stand for?",
             "solution": "a1",
-            "a1": "Notice to Airmission",
+            "a1": "Notices to Aviation",
             "a2": "National Operational Terminal and Airspace Management",
             "a3": "Notification to Aircraft Movements",
             "a4": "Navigational Terms and Management"
@@ -645,11 +645,11 @@
             "id": "CP40",
             "level": "CP",
             "category": "Airlaw",
-            "question": "You are legally required to fly during daylight to comply to the Visual Flight Rules in uncontrolled airspaces. Daylight times are defined by:",
+            "question": "You are legally required to fly during daylight to comply with Visual Flight Rules in uncontrolled airspace. Daylight times are defined by:",
             "solution": "a3",
             "a1": "Sunrise and sunset times",
-            "a2": "Sunrise time plus 30 minutes and sunset time minus 30 minutes",
-            "a3": "Sunrise time minus 30 minutes and sunset time plus 30 minutes"
+            "a2": "30 minutes after sunrise and 30 minutes after sunset time",
+            "a3": "30 minutes before sunrise and 30 minutes after sunset time"
         },  {
             "id": "CP41",
             "level": "CP",
@@ -714,7 +714,7 @@
             "id": "CP47",
             "level": "CP",
             "category": "Airmanship",
-            "question": "The LFT or CEN airworthiness certificate of your paraglider is",
+            "question": "The LTF or CEN airworthiness certificate of your paraglider is",
             "solution": "a2",
             "a1": "Evidence that your glider is completely safe",
             "a2": "A series of tests of the glider's behaviour in controlled airmass to evaluate how it recovers at the bottom and top end of the weight bracket",
@@ -733,11 +733,11 @@
             "id": "CP49",
             "level": "CP",
             "category": "Airmanship",
-            "question": "Where can detailed information about technical information of our sport be found?",
+            "question": "Where can detailed technical information of our sport be found?",
             "solution": "a2",
             "a1": "The Air Navigation Order",
             "a2": "BHPA Technical manual",
-            "a3": "The Pilot's Operating Handbook (POH)",
+            "a3": "The CAA's website",
             "a4": "NOTAM"
         }, {
             "id": "P1",
@@ -762,127 +762,126 @@
             }, {
                 "id": "P3",
                 "level":"P",
-                "category": "",
-                "question" : "",
-                "solution": "",
-                "a1": "",
-                "a2": "",
-                "a3": "",
-                "a4": ""
+                "category": "POF",
+                "question" : "What effect does wingtip vortex generation have on the overall efficiency of a wing?",
+                "solution": "a2",
+                "a1": "It increases lift while reducing drag",
+                "a2": "It decreases lift and increases induced drag",
+                "a3": "It stabilizes the aircraft at high angles of attack",
+                "a4": "It has no significant effect on wing efficiency"
             },{
                 "id": "P4",
                 "level":"P",
-                "category": "",
-                "question" : "",
-                "solution": "",
-                "a1": "",
-                "a2": "",
-                "a3": "",
-                "a4": ""
+                "category": "POF",
+                "question" : "How does the aspect ratio of a wing influence its aerodynamic performance?",
+                "solution": "a1",
+                "a1": "Higher aspect ratio wings produce more lift and have lower induced drag",
+                "a2": "Lower aspect ratio wings produce more lift and have higher induced drag",
+                "a3": "Higher aspect ratio wings produce less lift and have higher parasitic drag",
+                "a4": "Aspect ratio has no impact on aerodynamic performance"
             },{
                 "id": "P5",
                 "level":"P",
-                "category": "",
-                "question" : "",
-                "solution": "",
-                "a1": "",
-                "a2": "",
-                "a3": "",
-                "a4": ""
+                "category": "POF",
+                "question" : "Which condition most significantly affects the glide ratio of a glider?",
+                "solution": "a3",
+                "a1": "Atmospheric pressure",
+                "a2": "Temperature",
+                "a3": "Wind speed and direction",
+                "a4": "Humidity levels"
             },{
                 "id": "P6",
                 "level":"P",
-                "category": "",
-                "question" : "",
-                "solution": "",
-                "a1": "",
-                "a2": "",
-                "a3": "",
-                "a4": ""
+                "category": "POF",
+                "question" : "How does anhedral (downward angle of the wings) affect the stability of a glider?",
+                "solution": "a2",
+                "a1": "It increases lateral stability but decreases directional stability.",
+                "a2": "It decreases lateral stability but increases roll responsiveness.",
+                "a3": "It increases both lateral and directional stability.",
+                "a4": "It has no effect on the glider's stability."
             },{
                 "id": "P7",
                 "level":"P",
-                "category": "",
-                "question" : "",
-                "solution": "",
-                "a1": "",
-                "a2": "",
-                "a3": "",
-                "a4": ""
+                "category": "POF",
+                "question" : "What happens to the center of pressure on a wing as the angle of attack increases beyond the critical angle?",
+                "solution": "a3",
+                "a1": "It moves forward, causing a nose-up pitch.",
+                "a2": "It remains stationary.",
+                "a3": "It moves backward, leading to a loss of lift.",
+                "a4": "It moves upward, increasing lift."
             },{
                 "id": "P8",
                 "level":"P",
-                "category": "",
-                "question" : "",
-                "solution": "",
-                "a1": "",
-                "a2": "",
-                "a3": "",
-                "a4": ""
+                "category": "POF",
+                "question" : "Which aerodynamic phenomenon is primarily responsible for the formation of wingtip vortices?",
+                "solution": "a1",
+                "a1": "Differential air pressure across the wing span",
+                "a2": "The wing's curvature (camber)",
+                "a3": "The speed of the aircraft",
+                "a4": "The surface roughness of the wing"
             },{
                 "id": "P9",
                 "level":"P",
-                "category": "",
-                "question" : "",
-                "solution": "",
-                "a1": "",
-                "a2": "",
-                "a3": "",
-                "a4": ""
+                "category": "POF",
+                "question" : "What is the primary purpose of washout in hang glider design?",
+                "solution": "a3",
+                "a1": "To increase overall lift",
+                "a2": "To reduce drag at high speeds",
+                "a3": "To ensure that the wing root stalls before the wingtip",
+                "a4": "To decrease wing loading"
             },{
                 "id": "P10",
                 "level":"P",
-                "category": "",
-                "question" : "",
-                "solution": "",
-                "a1": "",
-                "a2": "",
-                "a3": "",
-                "a4": ""
+                "category": "POF",
+                "question" : "What is the primary factor that determines the glide ratio of a glider?",
+                "solution": "a2",
+                "a1": "The pilot's weight",
+                "a2": "The glider's aspect ratio",
+                "a3": "The glider's wing loading",
+                "a4": "The glider's structural design"
             },{
                 "id": "P11",
                 "level":"P",
-                "category": "",
-                "question" : "",
-                "solution": "",
-                "a1": "",
-                "a2": "",
-                "a3": "",
-                "a4": ""
+                "category": "POF",
+                "question" : "Standing up in the harness during the final leg increases:",
+                "solution": "a1",
+                "a1": "Parasitic drag",
+                "a2": "Induced drag",
+                "a3": "Interference drag",
+                "a4": "Wave drag"
             },{
                 "id": "P12",
                 "level":"P",
-                "category": "",
-                "question" : "",
-                "solution": "",
-                "a1": "",
-                "a2": "",
-                "a3": "",
-                "a4": ""
+                "category": "POF",
+                "question" : "You covered 4800 metres, loosing 2000 feet in height. You glide ratio is:",
+                "solution": "a3",
+                "a1": "6:1",
+                "a2": "7:1",
+                "a3": "8:1",
+                "a4": "9:1"
             },{
                 "id": "P13",
                 "level":"P",
-                "category": "",
-                "question" : "",
-                "solution": "",
-                "a1": "",
-                "a2": "",
-                "a3": "",
-                "a4": ""
+                "category": "POF",
+                "question" : "You are flying with a tail wind. What does it induce?",
+                "solution": "a3",
+                "a1": "A decrease of aerodynamic forces",
+                "a2": "An increase of the incidence",
+                "a3": "An increase of glide ratio",
+                "a4": "An increase of airspeed"
             },{
                 "id": "P14",
                 "level":"P",
-                "category": "",
-                "question" : "",
-                "solution": "",
-                "a1": "",
-                "a2": "",
-                "a3": "",
-                "a4": ""
+                "category": "POF",
+                "question" : "A laminar wind doesn't change:",
+                "solution": "a1",
+                "a1": "Airspeed",
+                "a2": "Groundspeed",
+                "a3": "Glide ratio"
             },{
                 "id": "P15",
                 "level":"P",
-                "category": "",
+                "category": "POF",
                 "question" : "",
                 "solution": "",
                 "a1": "",
@@ -931,6 +930,96 @@
                 "a4": ""
             },{
                 "id": "P20",
+                "level":"P",
+                "category": "",
+                "question" : "",
+                "solution": "",
+                "a1": "",
+                "a2": "",
+                "a3": "",
+                "a4": ""
+            },{
+                "id": "P21",
+                "level":"P",
+                "category": "",
+                "question" : "",
+                "solution": "",
+                "a1": "",
+                "a2": "",
+                "a3": "",
+                "a4": ""
+            },{
+                "id": "P22",
+                "level":"P",
+                "category": "",
+                "question" : "",
+                "solution": "",
+                "a1": "",
+                "a2": "",
+                "a3": "",
+                "a4": ""
+            },{
+                "id": "P23",
+                "level":"P",
+                "category": "",
+                "question" : "",
+                "solution": "",
+                "a1": "",
+                "a2": "",
+                "a3": "",
+                "a4": ""
+            },{
+                "id": "P24",
+                "level":"P",
+                "category": "",
+                "question" : "",
+                "solution": "",
+                "a1": "",
+                "a2": "",
+                "a3": "",
+                "a4": ""
+            },{
+                "id": "P25",
+                "level":"P",
+                "category": "",
+                "question" : "",
+                "solution": "",
+                "a1": "",
+                "a2": "",
+                "a3": "",
+                "a4": ""
+            },{
+                "id": "P26",
+                "level":"P",
+                "category": "",
+                "question" : "",
+                "solution": "",
+                "a1": "",
+                "a2": "",
+                "a3": "",
+                "a4": ""
+            },{
+                "id": "P27",
+                "level":"P",
+                "category": "",
+                "question" : "",
+                "solution": "",
+                "a1": "",
+                "a2": "",
+                "a3": "",
+                "a4": ""
+            },{
+                "id": "P28",
+                "level":"P",
+                "category": "",
+                "question" : "",
+                "solution": "",
+                "a1": "",
+                "a2": "",
+                "a3": "",
+                "a4": ""
+            },{
+                "id": "P29",
                 "level":"P",
                 "category": "",
                 "question" : "",
