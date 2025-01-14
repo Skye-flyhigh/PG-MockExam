@@ -677,7 +677,7 @@
     "solution": "a3",
     "a1": "All the airspaces",
     "a2": "Only airspaces up to 3000 feet",
-    "a3": "Only airspaces up to FL55 or 5000 feet",
+    "a3": "Only airspaces up to FL50 or 5000 feet",
     "a4": "Only danger and restricted airspaces"
 }, {
     "id": "CP44",
