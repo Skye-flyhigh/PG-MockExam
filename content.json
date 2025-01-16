@@ -1006,7 +1006,7 @@
     "solution": "a2",
     "a1": "8°C/km",
     "a2": "9°C/km",
-    "a3": "10°C/km",
+    "a3": "9.8°C/km",
     "a4": "11°C/km"
 }, {
     "id": "P28",
@@ -1039,7 +1039,7 @@
     "a3": "SALR includes the effects of condensation and latent heat release",
     "a4": "DALR occurs only in saturated air"
 }, {
-    "id": "P29",
+    "id": "P31",
     "level": "P",
     "category": "Met",
     "question": "What is a key characteristic of a temperature inversion?",
@@ -1049,7 +1049,7 @@
     "a3": "Temperature increases with altitude",
     "a4": "Temperature fluctuates erratically with altitude"
 }, {
-    "id": "P30",
+    "id": "P32",
     "level": "P",
     "category": "Met",
     "question": "What does the aviation term 'CAVOK' stand for?",
@@ -1059,7 +1059,7 @@
     "a3": "Cloud And Visibility On Key",
     "a4": "Calm Air Velocity OK"
 }, {
-    "id": "P31",
+    "id": "P33",
     "level": "P",
     "category": "Met",
     "question": "Which type of weather system is characterized by converging winds and rising air?",
@@ -1069,7 +1069,7 @@
     "a3": "High-pressure system",
     "a4": "Cold front"
 }, {
-    "id": "P32",
+    "id": "P34",
     "level": "P",
     "category": "Met",
     "question": "What is adiabatic heating primarily caused by?",
@@ -1079,7 +1079,7 @@
     "a3": "Compression of air as it descends",
     "a4": "Absorption of heat from surrounding air"
 }, {
-    "id": "P33",
+    "id": "P35",
     "level": "P",
     "category": "Met",
     "question": "What can be inferred if a tephigram shows the environmental lapse rate to be steeper than the dry adiabatic lapse rate?",
