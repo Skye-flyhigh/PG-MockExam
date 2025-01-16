@@ -744,7 +744,7 @@
     "level": "P",
     "category": "POF",
     "question": "If your paraglider suffers from a large asymmetric collapse at low level (300ft) and immediately starts to dive and rotate, the optimum pilot action is to:",
-    "solution": "a3",
+    "solution": "a2",
     "a1": "Apply opposite weight shift and strong opposite brake to try and stop the turn.",
     "a2": "Deploy your emergency parachute.",
     "a3": "Apply a small amount of opposite brake, and weight shift to try and slow or stop the turn, use deep pumps on the collapsed side to help the glider re-inflate.",
@@ -1092,7 +1092,7 @@
     "id": "P40",
     "level": "P",
     "category": "Airlaw",
-    "question": "What is hte primary source of UK aviation law?",
+    "question": "What is the primary source of UK aviation law?",
     "solution": "a1",
     "a1": "UK Air Navigation Order (ANO)",
     "a2": "Civil Aviation Safety Regulation (CASR)",
@@ -1205,7 +1205,7 @@
     "question": "Which type of airspace allows unrestricted glider entry?",
     "solution": "a4",
     "a1": "Danger Areas",
-    "a2": "MATZ",
+    "a2": "ATZ",
     "a3": "Controlled Zones",
     "a4": "Class G airspace"
 }, {
