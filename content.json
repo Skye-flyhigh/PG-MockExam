@@ -1389,7 +1389,7 @@
         "id": "P35",
         "level": "P",
         "category": "Met",
-        "question": "What can be inferred if a tephigram shows the environmental lapse rate to be steeper than the dry adiabatic lapse rate?",
+        "question": "What can be inferred if the environmental lapse rate is greater than the dry adiabatic lapse rate?",
         "solution": "a1",
         "a1": "The atmosphere is absolutely unstable",
         "a2": "The atmosphere is conditionally stable",
