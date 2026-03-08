@@ -26,7 +26,7 @@ window.addEventListener("scroll", () => {
   } else {
     navbar.classList.remove("fixed");
   }
-});
+}); 
 
 // select the level of the mock exam
 levelSelector.addEventListener("change", (e) => {

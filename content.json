@@ -145,7 +145,7 @@
         "id": "EP14",
         "level": "EP",
         "category": "Airlaw",
-        "question": "What is the maximum height you may tow a paraglider or a hanglider without Tow Site permission granted by the Civil Aviation Authority?",
+        "question": "What is the maximum height you may tow a paraglider or a hang glider without Tow Site permission granted by the Civil Aviation Authority?",
         "solution": "a2",
         "a1": "600 metres agl (Above Ground Level)",
         "a2": "60 metres agl",
@@ -199,12 +199,12 @@
         "id": "EP19",
         "level": "EP",
         "category": "Airlaw",
-        "question": "You are flying towards a Hanglider in the UK, in open air space and same altitude, you should:",
+        "question": "You are flying towards a hang glider in the UK, in open air space and same altitude, you should:",
         "solution": "a1",
         "a1": "Turn right",
         "a2": "Turn left",
         "a3": "Shout",
-        "a4": "Pull the brake in hope to swing below the Hanglider"
+        "a4": "Pull the brake in hope to swing below the hang glider"
     },
     {
         "id": "EP20",
@@ -1183,9 +1183,9 @@
         "level": "P",
         "category": "POF",
         "question": "Minimum sink could be defined by:",
-        "solution": "a1",
+        "solution": "a2",
         "a1": "A flying speed the closest to stall point",
-        "a2": "It has a higher angle of attack than max speed",
+        "a2": "It has a higher angle of attack than trim speed",
         "a3": "It is a fast flying speed"
     },
     {
@@ -1214,7 +1214,7 @@
         "id": "P19",
         "level": "P",
         "category": "POF",
-        "question": "How is the glide angle affected when flying in descending air?",
+        "question": "How is the glide ratio affected when flying in descending air?",
         "solution": "a3",
         "a1": "It increases",
         "a2": "It stays the same",
@@ -1414,7 +1414,7 @@
         "question": "What is the purpose of the CANP system?",
         "solution": "a2",
         "a1": "To identify military activity near controlled airspace",
-        "a2": "To notify airspace users of low-level military activity",
+        "a2": "To notify airspace users of low-level activity",
         "a3": "To inform pilots about changes in navigational charts",
         "a4": "To allocate flight schedules for general aviation"
     },
